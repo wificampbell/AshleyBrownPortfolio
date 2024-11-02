@@ -1,0 +1,137 @@
+.nav {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  height: 30px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 9px;
+  margin-right: 20px;
+  font-size: 150%;
+  padding-bottom: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 1em;
+  color: black;
+}
+
+li a:hover {
+  background-color: #D2D3D3;
+  padding-top: -10px;
+  padding-bottom: 16px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color : #7D7F80; 
+  margin-top : 32px;
+}
+
+hr.rounded 
+{
+  border-bottom-width : 0px black;
+}
+
+.home
+  {
+    margin-left : 90px;
+    margin-right : 92px;
+    font-size : 23px;
+    text-align: center;
+  }
+
+/**/
+
+#gamephotos
+  {
+  margin: 5px;
+  padding-right : 60px;
+  margin-left : 0px;
+}
+
+#gamephotos img 
+{
+  object-fit: cover;
+  height: 230px;
+  width : 230px;
+  margin-left : 5px;
+  padding-left : 30px;
+  margin-right : 0px;
+  background-color : #D2D3D3;
+}
+
+#gamephotos img {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+#box
+{
+  background-color : white;
+  margin-left : -1%;
+  padding-bottom : 0px;
+  align-items: center;
+}
+  
+/*the images row for 2nd box page 2*/
+  #cute 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin-top: 2em;
+  padding-top : 30px;
+}
+
+
+#gameName
+  {
+    /*border: 5px solid black;*/
+    margin-left : 30px;
+    max-width : 220px;
+    font-size : 20px;
+  }
+
+
