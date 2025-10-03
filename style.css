@@ -15,62 +15,102 @@
 }
 
 a {
-  color: black;
-  text-decoration: none;
+  color: #463F3A;
   font-size: 19px;
+}
+
+#link2 {
+  font-size: 16px;
 }
 
 li a {
   text-decoration: none;
   font-size: 1.5em;
   padding: 1em;
-  color: black;
+  color: #463F3A;
 }
 
 li a:hover {
-  background-color: #D2D3D3;
-  padding-top: -10px;
+  background-color: #f4f3ee;
   padding-bottom: 16px;
+  padding-top: -30px;
 }
 
 h2 {
   text-align: center;
-  font-size: 30px;
-  color : #7D7F80; 
-  margin-top : 32px;
+  font-size: 25px;
+  color: #463F3A;
+  margin-top: 0px;
 }
 
-hr.rounded 
-{
-  border-bottom-width : 0px black;
+hr.rounded {
+  border-bottom-width: 0px 463F3A;
 }
 
-.home
-  {
-    margin-left : 90px;
-    margin-right : 92px;
-    font-size : 23px;
-    text-align: center;
-  }
+.home {
+  margin-left: 90px;
+  margin-right: 92px;
+  font-size: 19px;
+  width: 1050px;
+  height: 800px;
+  margin: 0;
+  color: #463F3A;
+}
+
+.home p {
+  text-align: left;
+  line-height: 30px;
+}
 
 /**/
 
-#gamephotos
-  {
+#gamephotos {
   margin: 5px;
-  padding-right : 60px;
-  margin-left : 0px;
+  padding-right: 60px;
+  margin-left: 0px;
 }
 
-#gamephotos img 
+.flexBox {
+  display: flex;
+  align-items: flex-start;
+  /* Aligns items to the top */
+  justify-content: center;
+  gap: 25px;
+  /* Adds space between the image and text */
+  padding: 20px;
+  height: 600px;
+}
+
+.sideBar {
+  height: 570px;
+  width: 450px;
+  padding: 20px;
+  font-size: 16px;
+  background-color: #e0afa0;
+  border-radius: 25px;
+}
+
+.sideBar img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px;
+
+}
+
+/*.textContent
 {
+  max-width: 600px; 
+}*/
+
+#gamephotos img {
   object-fit: cover;
   height: 230px;
-  width : 230px;
-  margin-left : 5px;
-  padding-left : 30px;
-  margin-right : 0px;
-  background-color : #D2D3D3;
+  width: 230px;
+  margin-left: 5px;
+  padding-left: 30px;
+  margin-right: 0px;
+  background-color: #e0afa0;
 }
 
 #gamephotos img {
@@ -82,56 +122,151 @@ hr.rounded
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-
-#box
-{
-  background-color : white;
-  margin-left : -1%;
-  padding-bottom : 0px;
-  align-items: center;
-}
-  
-/*the images row for 2nd box page 2*/
-  #cute 
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: center; 
-  margin-top: 2em;
-  padding-top : 30px;
-}
-
-
-#gameName
-  {
-    /*border: 5px solid black;*/
-    margin-left : 30px;
-    max-width : 220px;
-    font-size : 20px;
+  0% {
+    opacity: 0;
   }
 
+  100% {
+    opacity: 1;
+  }
+}
 
+
+.Box {
+  background-color: white;
+  margin-left: -1%;
+  padding-bottom: 0px;
+  align-items: center;
+}
+
+.eachRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+  padding-top: 30px;
+}
+
+.personalMoments {
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+#moment1 {
+  margin-left: 220px;
+  text-align: left;
+}
+
+#moment2 {
+  margin-left: 50px;
+  text-align: center;
+}
+
+#moment3 {
+  margin-left: 85px;
+  text-align: center;
+}
+
+
+#gameName {
+  margin-left: 30px;
+  max-width: 220px;
+  font-size: 20px;
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.timeline-circle {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-color: #e0afa0;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: dotted;
+  position: relative;
+  z-index: 2;
+  margin-right: 50px;
+  font-size: 24px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-text {
+  font-size: 16px;
+  color: #e0afa0;
+  text-align: center;
+}
+
+.timeline-circle:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 50px;
+  height: 2px;
+  background-color: #e0afa0;
+}
+
+#mySkills {
+  margin-left: 20px;
+}
