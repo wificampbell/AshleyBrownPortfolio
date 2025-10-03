@@ -15,7 +15,7 @@
 }
 
 a {
-  color: black;
+  color: #463F3A;
   text-decoration: none;
   font-size: 19px;
 }
@@ -24,11 +24,11 @@ li a {
   text-decoration: none;
   font-size: 1.5em;
   padding: 1em;
-  color: black;
+  color: #463F3A;
 }
 
 li a:hover {
-  background-color: #D2D3D3;
+  background-color: #daf0ff;
   padding-top: -10px;
   padding-bottom: 16px;
 }

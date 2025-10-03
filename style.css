@@ -31,7 +31,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #f4f3ee;
+  background-color: #daf0ff;
   padding-bottom: 16px;
   padding-top: -30px;
 }
@@ -86,7 +86,7 @@ hr.rounded {
   width: 450px;
   padding: 20px;
   font-size: 16px;
-  background-color: #e0afa0;
+  background-color: #b5e2ff;
   border-radius: 25px;
 }
 
@@ -110,7 +110,7 @@ hr.rounded {
   margin-left: 5px;
   padding-left: 30px;
   margin-right: 0px;
-  background-color: #e0afa0;
+  background-color: #b5e2ff;
 }
 
 #gamephotos img {
@@ -237,7 +237,7 @@ hr.rounded {
   width: 200px;
   height: 200px;
   background-color: white;
-  border-color: #e0afa0;
+  border-color: #b5e2ff;
   border-radius: 50%;
   border-width: 2px;
   border-style: dotted;
@@ -253,7 +253,7 @@ hr.rounded {
 
 .timeline-text {
   font-size: 16px;
-  color: #e0afa0;
+  color: #b5e2ff;
   text-align: center;
 }
 
@@ -264,7 +264,7 @@ hr.rounded {
   left: 100%;
   width: 50px;
   height: 2px;
-  background-color: #e0afa0;
+  background-color: #b5e2ff;
 }
 
 #mySkills {

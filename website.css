@@ -15,7 +15,7 @@
 }
 
 a {
-  color: black;
+  color: #463F3A;
   text-decoration: none;
   font-size: 19px;
 }
@@ -24,60 +24,54 @@ li a {
   text-decoration: none;
   font-size: 1.5em;
   padding: 1em;
-  color: black;
+  color: #463F3A;
 }
 
 li a:hover {
-  background-color: #D2D3D3;
+  background-color: #daf0ff;
   padding-top: -10px;
   padding-bottom: 16px;
 }
 
-.websiteP img
-{
+.websiteP img {
   object-fit: cover;
   height: 350px;
-  width : 690px;
-  margin-left : -90px;
-  padding-left : 0px;
-  margin-right : 0px;
-  margin-bottom : 20px;
-  border-style : solid;
+  width: 690px;
+  margin-left: -90px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  border-style: solid;
   border-radius: 15px;
   border-color: black;
   border-width: 4px;
 }
 
-.websiteP
-{
-  width : 600px;
+.websiteP {
+  width: 600px;
 }
 
-#cute 
-{
+#cute {
   display: flex;
   flex-direction: row;
-  justify-content: center; 
+  justify-content: center;
   margin-top: 0px;
-  padding-top : 30px;
-  width : 1500px;
+  padding-top: 30px;
+  width: 1500px;
 }
 
-.websiteW
-{
-  margin-left : 90px;
-  width : 550px;
-  font-size : 20px;
+.websiteW {
+  margin-left: 90px;
+  width: 550px;
+  font-size: 20px;
 }
 
-#link
-{
+#link {
   font-size: 30px;
-  color : #7D7F80; 
-  margin-top : 32px;
+  color: #7D7F80;
+  margin-top: 32px;
 }
 
-hr.rounded 
-{
-  border-bottom-width : 0px black;
+hr.rounded {
+  border-bottom-width: 0px black;
 }
