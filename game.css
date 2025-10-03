@@ -33,53 +33,48 @@ li a:hover {
   padding-bottom: 16px;
 }
 
-.websiteP img
-{
+.websiteP img {
   object-fit: cover;
   height: 350px;
-  width : 690px;
-  margin-left : 90px;
-  padding-left : 0px;
-  margin-right : 0px;
-  margin-bottom : 20px;
-  border-style : solid;
+  width: 690px;
+  margin-left: 90px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  border-style: solid;
   border-radius: 15px;
   border-color: black;
   border-width: 4px;
 }
 
-.websiteP
-{
-  width : 600px;
+.websiteP {
+  width: 600px;
 }
 
-#cute 
-{
+#cute {
   display: flex;
   flex-direction: row;
-  justify-content: center; 
+  justify-content: center;
   margin-top: 0px;
-  padding-top : 30px;
-  width : 1500px;
+  padding-top: 30px;
+  width: 1500px;
 }
 
-.websiteW
-{
-  margin-left : -250px;
-  width : 500px;
-  font-size : 20px;
+.websiteW {
+  margin-left: -250px;
+  width: 500px;
+  font-size: 20px;
 }
 
 
-#link, h1
-{
+#link,
+h1 {
   font-size: 30px;
-  color : #7D7F80; 
-  margin-top : 32px;
-  font-weight : normal;
+  color: #7D7F80;
+  margin-top: 32px;
+  font-weight: normal;
 }
 
-hr.rounded 
-{
-  border-bottom-width : 0px black;
+hr.rounded {
+  border-bottom-width: 0px black;
 }
